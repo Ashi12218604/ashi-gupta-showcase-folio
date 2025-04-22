@@ -37,7 +37,7 @@ const Education = () => {
     },
     {
       name: "Tableau Mastery",
-      issuer: "Job Aid Learnings",
+      issuer: "Job Aaj Learnings",
       period: "Jun '22 - Jul '23",
       description: "Advanced data visualization skills using Tableau, creating interactive and insightful dashboards for data analysis",
       link: "https://certificates.programmingpathshala.com/v1/doc?id=f23d75d9f375fda86b5cd25218da51d48828fe5d018d18ecf24c6c9712d823a1"
