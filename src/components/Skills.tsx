@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Code, Database, Github, BarChart, Brain } from "lucide-react";
 
@@ -12,7 +11,7 @@ const Skills = () => {
     {
       title: "Frameworks",
       icon: <Database className="h-6 w-6 text-primary" />,
-      skills: ["Springboot", "Pandas","Tensorflow", "Keras"],
+      skills: ["Springboot", "Pandas", "Tensorflow", "Keras"],
     },
     {
       title: "Tools & Platforms",
@@ -22,7 +21,7 @@ const Skills = () => {
     {
       title: "Data Analysis",
       icon: <BarChart className="h-6 w-6 text-primary" />,
-      skills: ["Data Visualization", "Regression Analysis", "Statistical Modelling","Feature Engineering"],
+      skills: ["Data Visualization", "Regression Analysis", "Statistical Modelling", "Feature Engineering"],
     },
     {
       title: "Soft Skills",
@@ -62,6 +61,25 @@ const Skills = () => {
               </CardContent>
             </Card>
           ))}
+
+          {/* Continuing Education Card */}
+          <Card className="col-span-full bg-white dark:bg-background shadow-md">
+            <CardContent className="p-6 space-y-4">
+              <h3 className="text-2xl font-semibold text-primary">Continuing Education</h3>
+              <p className="text-gray-700 dark:text-gray-300">
+                I am committed to continuous learning and professional development. Beyond these certifications, I regularly participate in workshops, webinars, and online courses to stay current with the latest technologies and methodologies in data science and software development.
+              </p>
+              <div>
+                <h4 className="text-lg font-semibold text-primary mb-2">Current Learning Focus:</h4>
+                <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
+                  <li>Advanced machine learning techniques and deep learning</li>
+                  <li>Cloud-based data solutions and big data technologies</li>
+                  <li>Data engineering best practices</li>
+                  <li>Advanced visualization techniques</li>
+                </ul>
+              </div>
+            </CardContent>
+          </Card>
         </div>
       </div>
     </section>
