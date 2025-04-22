@@ -30,7 +30,7 @@ const Skills = () => {
     {
       title: "Soft Skills",
       icon: <Brain className="h-6 w-6 text-primary" />,
-      skills: ["Adaptability", "Time Management", "Communication", "Self-Motivated", "Versatile", "Quick Learner"],
+      skills: ["Adaptability", "Time Management", "Communication Skills", "Versatile", "Quick Learner"],
     },
   ];
 
