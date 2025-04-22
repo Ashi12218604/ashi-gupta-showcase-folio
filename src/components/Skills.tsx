@@ -22,7 +22,7 @@ const Skills = () => {
     {
       title: "Data Analysis",
       icon: <BarChart className="h-6 w-6 text-primary" />,
-      skills: ["Data Visualization", "Regression Analysis", "Statistical Modeling","Faeture Engineering"],
+      skills: ["Data Visualization", "Regression Analysis", "Statistical Modelling","Feature Engineering"],
     },
     {
       title: "Soft Skills",
