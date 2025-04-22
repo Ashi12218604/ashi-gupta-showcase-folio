@@ -19,14 +19,14 @@ const Contact = () => {
     {
       icon: <Mail className="h-5 w-5 text-primary" />,
       title: "Email",
-      value: "ashigupta5433@gmail.com",
-      link: "mailto:ashigupta5433@gmail.com",
+      value: "guptaashi655@gmail.com",
+      link: "mailto:guptaashi655@gmail.com",
     },
     {
       icon: <Phone className="h-5 w-5 text-primary" />,
       title: "Phone",
-      value: "+91-9781379948",
-      link: "tel:+919781379948",
+      value: "+91-8791379845",
+      link: "tel:+8791379845",
     },
     {
       icon: <Github className="h-5 w-5 text-primary" />,
@@ -168,10 +168,10 @@ const Contact = () => {
 
             <Card>
               <CardHeader>
-                <CardTitle>Office Hours</CardTitle>
+                <CardTitle>Response</CardTitle>
               </CardHeader>
               <CardContent>
-                <p>Monday - Friday: 9:00 AM - 5:00 PM (IST)</p>
+                <p> Thanks for contacting.</p>
                 <p className="mt-2">I'll respond to your message within 24-48 hours.</p>
               </CardContent>
             </Card>
