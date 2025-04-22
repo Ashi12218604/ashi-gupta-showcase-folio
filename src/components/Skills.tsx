@@ -12,17 +12,17 @@ const Skills = () => {
     {
       title: "Frameworks",
       icon: <Database className="h-6 w-6 text-primary" />,
-      skills: ["React", "Django"],
+      skills: ["Springboot", "Pandas","Tensorflow", "Keras"],
     },
     {
       title: "Tools & Platforms",
       icon: <Github className="h-6 w-6 text-primary" />,
-      skills: ["Insikt", "Tableau", "NLTK", "GoogleColab", "Jupyter", "Git", "GitHub"],
+      skills: ["IntelliJ", "Tableau", "MySQL", "GoogleColab", "Jupyter", "Git", "GitHub"],
     },
     {
       title: "Data Analysis",
       icon: <BarChart className="h-6 w-6 text-primary" />,
-      skills: ["Data Visualization", "Regression Analysis", "Statistical Modeling"],
+      skills: ["Data Visualization", "Regression Analysis", "Statistical Modeling","Faeture Engineering"],
     },
     {
       title: "Soft Skills",
