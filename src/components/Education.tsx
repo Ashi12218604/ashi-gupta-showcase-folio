@@ -1,6 +1,7 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { GraduationCap, Calendar } from "lucide-react";
+import { GraduationCap, Calendar, Link as LinkIcon } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const Education = () => {
   const education = [
@@ -30,26 +31,44 @@ const Education = () => {
       name: "Programming Pathshala - Renaissance",
       issuer: "Programming Pathshala",
       period: "Nov '22 - Jan '23",
-      description: "Learned advanced data structures and algorithms, enhancing troubleshooting skills"
+      description: "Learned advanced data structures and algorithms, enhancing troubleshooting skills",
+      link: "https://certificates.programmingpathshala.com/v1/doc?id=f23d75d9f375fda86b5cd25218da51d48828fe5d018d18ecf24c6c9712d823a1"
     },
     {
       name: "Tableau Mastery",
       issuer: "Job Aid Learnings",
       period: "Jun '22 - Jul '23",
       description: "Advanced data visualization skills using Tableau, creating interactive and insightful dashboards for data analysis"
+      // No link provided
     },
     {
       name: "Natural Language Processing - Infosys Springboard",
       issuer: "Infosys",
       period: "Feb '22 - Mar '23",
       description: "NLP fundamentals and applications"
+      // No link provided
     },
     {
       name: "IBM SQL & DBMS - Coursera",
       issuer: "IBM via Coursera",
       period: "Jan '22 - Feb '23",
-      description: "Database management and SQL fundamentals"
+      description: "Database management and SQL fundamentals",
+      link: "https://www.coursera.org/account/accomplishments/certificate/NIOODDFLNY6R"
     },
+    {
+      name: "Machine Learning - Coursera",
+      issuer: "Coursera (Andrew Ng)",
+      period: "No Date Provided",
+      description: "Core concepts in machine learning, regression, classification, clustering, and more",
+      link: "https://www.coursera.org/account/accomplishments/certificate/MA1QKY6HSBP4"
+    },
+    {
+      name: "MongoDB Developer",
+      issuer: "MongoDB University",
+      period: "No Date Provided",
+      description: "Foundational skills in MongoDB, document databases, CRUD operations, and schema design",
+      link: "https://learn.mongodb.com/c/hUUsZcLxQdO1uu6yPIa8UQ"
+    }
   ];
 
   return (
@@ -110,6 +129,23 @@ const Education = () => {
                       <span className="text-sm text-gray-500 dark:text-gray-400">
                         <Calendar className="h-3 w-3 inline mr-1" /> {item.period}
                       </span>
+                      {item.link && (
+                        <Button
+                          asChild
+                          size="sm"
+                          variant="outline"
+                          className="ml-2 flex items-center gap-1 px-2 py-1 h-8"
+                        >
+                          <a
+                            href={item.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <LinkIcon className="h-4 w-4" />
+                            View Certificate
+                          </a>
+                        </Button>
+                      )}
                     </div>
                     <p className="text-sm">{item.description}</p>
                   </CardContent>
@@ -124,3 +160,4 @@ const Education = () => {
 };
 
 export default Education;
+
