@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { GraduationCap, Calendar, Link as LinkIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -94,7 +93,7 @@ const Education = () => {
                   <CardHeader>
                     <CardTitle className="text-xl">{item.institution}</CardTitle>
                     <CardDescription className="text-gray-600 dark:text-gray-400">
-                      {item.degree}
+                      {item.degree || `Class ${item.class}`}
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
@@ -104,8 +103,10 @@ const Education = () => {
                         <Calendar className="h-3 w-3 mr-1" /> {item.period}
                       </span>
                     </div>
-                    {item.grade && (
-                      <div className="mt-2 font-medium text-primary">{item.grade}</div>
+                    {(item.grade || item.percentage) && (
+                      <div className="mt-2 font-medium text-primary">
+                        {item.grade || `Percentage: ${item.percentage}`}
+                      </div>
                     )}
                   </CardContent>
                 </Card>
@@ -162,4 +163,3 @@ const Education = () => {
 };
 
 export default Education;
-
