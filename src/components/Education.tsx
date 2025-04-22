@@ -22,7 +22,7 @@ const Education = () => {
     {
       institution: "Summer Valley School",
       class: "X",
-      percentage: "93.8",
+      percentage: "93.8%",
       location: "Dehradun, Uttarakhand",
       period: "2019 - 2020",
     },
@@ -60,14 +60,14 @@ const Education = () => {
     {
       name: "Machine Learning - Coursera",
       issuer: "Coursera (Andrew Ng)",
-      period: "No Date Provided",
+      period: "Jan '22 - Feb '23",
       description: "Core concepts in machine learning, regression, classification, clustering, and more",
       link: "https://www.coursera.org/account/accomplishments/certificate/MA1QKY6HSBP4"
     },
     {
       name: "MongoDB Developer",
       issuer: "MongoDB University",
-      period: "No Date Provided",
+      period: "Jan '22 - Feb '23",
       description: "Foundational skills in MongoDB, document databases, CRUD operations, and schema design",
       link: "https://learn.mongodb.com/c/hUUsZcLxQdO1uu6yPIa8UQ"
     }
