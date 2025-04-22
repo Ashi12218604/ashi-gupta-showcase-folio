@@ -6,30 +6,31 @@ import { Github, ExternalLink } from "lucide-react";
 
 const Projects = () => {
   const projects = [
+   
     {
       id: 1,
-      title: "Navy Analysis and Route Optimization",
-      description: "Implemented advanced analytics for maritime routes, optimizing data coverage for route computation. Projected a 20% reduction in route completion time through graph-based algorithms and enhanced navigation efficiency through proximity analysis.",
-      image: "/lovable-uploads/7b55d507-36cc-4ee8-a6c8-b5e18d7c8d43.png",
-      techs: ["Python", "NumPy", "Matplotlib", "NetworkX", "Keras", "Folium", "Dijkstra's algorithm"],
-      github: "https://github.com/Ashi12218604/Navy-Analysis-and-Route-Optimization",
-    },
-    {
-      id: 2,
-      title: "Polynomial Regression Analysis",
+      title: "Polynomial Evaluator",
       description: "Developed a regression-based polynomial term representation model, reducing dimensionality while maintaining high accuracy. Applied feature selection techniques to represent polynomial terms and improved code reliability by 40% through TDD methodology and code duplication reduction.",
       image: "/lovable-uploads/a0e8c334-0e6f-419f-bba3-b377477e0dc9.png",
       techs: ["Python", "NumPy", "Scikit-learn", "Matplotlib", "Pandas", "OOP", "TDD"],
-      github: "https://github.com/Ashi12218604/Polynomial-Regression",
+      github: "https://github.com/Ashi12218604/Polynomial-Evaluator-using-Linkedlist",
     },
     {
-      id: 3,
+      id: 2,
       title: "Weather Data Analysis",
       description: "Created detailed weather data visualizations, reducing data interpretation time by 30%. Implemented predictive models for seasonal trends, improving climate analysis efficiency by 25%, and analyzed temperature, humidity, and precipitation data to improve trend prediction accuracy.",
       image: "/lovable-uploads/422ab583-cd4f-47a7-8d97-73a665431fa8.png",
       techs: ["Python", "Pandas", "Matplotlib", "Seaborn", "Data Visualization"],
-      github: "https://github.com/Ashi12218604/Weather-Data-Analysis",
-    }
+      github: "https://github.com/Ashi12218604/Weather-Forecasting-Time-series-Analysis-",
+    },
+     {
+      id: 3,
+      title: "Navy Analysis and Route Optimization",
+      description: "Implemented advanced analytics for maritime routes, optimizing data coverage for route computation. Projected a 20% reduction in route completion time through graph-based algorithms and enhanced navigation efficiency through proximity analysis.",
+      image: "/lovable-uploads/7b55d507-36cc-4ee8-a6c8-b5e18d7c8d43.png",
+      techs: ["Python", "NumPy", "Matplotlib", "NetworkX", "Keras", "Folium", "Dijkstra's algorithm"],
+      github: "https://github.com/Ashi12218604/MNIST-digital-classifier",
+    },
   ];
 
   return (
