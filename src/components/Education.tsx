@@ -9,20 +9,22 @@ const Education = () => {
       institution: "Lovely Professional University",
       degree: "Bachelor of Technology in Computer Science and Engineering",
       location: "Punjab, India",
-      period: "2019 - 2023",
-      grade: "CGPA: 7.76",
+      period: "2022 - 2026",
+      grade: "CGPA: 7.96",
     },
     {
-      institution: "DAV PG College",
-      degree: "M.Sc.",
+      institution: "Summer Valley School",
+      class: "XII",
+      percentage: "93%",
       location: "Dehradun, Uttarakhand",
-      period: "2017 - 2019",
+      period: "2021 - 2022",
     },
     {
-      institution: "Citizen Public School",
-      degree: "12th Standard",
+      institution: "Summer Valley School",
+      class: "X",
+      percentage: "93.8",
       location: "Dehradun, Uttarakhand",
-      period: "2016 - 2017",
+      period: "2019 - 2020",
     },
   ];
 
@@ -38,15 +40,15 @@ const Education = () => {
       name: "Tableau Mastery",
       issuer: "Job Aid Learnings",
       period: "Jun '22 - Jul '23",
-      description: "Advanced data visualization skills using Tableau, creating interactive and insightful dashboards for data analysis"
-      // No link provided
+      description: "Advanced data visualization skills using Tableau, creating interactive and insightful dashboards for data analysis",
+      link: "https://certificates.programmingpathshala.com/v1/doc?id=f23d75d9f375fda86b5cd25218da51d48828fe5d018d18ecf24c6c9712d823a1"
     },
     {
       name: "Natural Language Processing - Infosys Springboard",
       issuer: "Infosys",
       period: "Feb '22 - Mar '23",
-      description: "NLP fundamentals and applications"
-      // No link provided
+      description: "NLP fundamentals and applications",
+      link: "https://certificates.programmingpathshala.com/v1/doc?id=f23d75d9f375fda86b5cd25218da51d48828fe5d018d18ecf24c6c9712d823a1"
     },
     {
       name: "IBM SQL & DBMS - Coursera",
