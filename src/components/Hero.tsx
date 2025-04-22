@@ -15,11 +15,11 @@ const Hero = () => {
               Computer Science Engineer & ML Engineer
             </p>
             <p className="text-gray-600 dark:text-gray-400 mb-8 text-lg">
-              I am a data scientist and developer specializing in data analysis, visualization, and machine learning with strong programming skills in Python, Java, and SQL.
+              <br>I am a data scientist and developer specializing in data analysis, visualization, and machine learning with strong programming skills in Python, Java, and SQL.</br>
 
-My expertise includes building interactive dashboards, implementing machine learning algorithms, and developing user-friendly applications that deliver significant business value through improved efficiency and data-driven decision-making.
+<br>My expertise includes building interactive dashboards, implementing machine learning algorithms, and developing user-friendly applications that deliver significant business value through improved efficiency and data-driven decision-making.</br>
 
-I am passionate about finding innovative solutions to complex problems and have a proven track record of reducing costs, improving efficiency, and enhancing user experiences through data analysis and application development.
+<br>I am passionate about finding innovative solutions to complex problems and have a proven track record of reducing costs, improving efficiency, and enhancing user experiences through data analysis and application development.</br>
             </p>
             <div className="flex flex-wrap gap-4">
               <Button asChild className="bg-primary hover:bg-primary/90 text-white">
