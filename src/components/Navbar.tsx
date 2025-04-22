@@ -19,11 +19,11 @@ const Navbar = () => {
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-6">
-            <Link to="/#about" className="hover:text-primary transition-colors">About</Link>
-            <Link to="/#skills" className="hover:text-primary transition-colors">Skills</Link>
-            <Link to="/#projects" className="hover:text-primary transition-colors">Projects</Link>
-            <Link to="/#education" className="hover:text-primary transition-colors">Education</Link>
-            <Link to="/#contact" className="hover:text-primary transition-colors">Contact</Link>
+            <a href="#about" className="hover:text-primary transition-colors">About</a>
+            <a href="#skills" className="hover:text-primary transition-colors">Skills</a>
+            <a href="#projects" className="hover:text-primary transition-colors">Projects</a>
+            <a href="#education" className="hover:text-primary transition-colors">Education</a>
+            <a href="#contact" className="hover:text-primary transition-colors">Contact</a>
             
             <div className="flex items-center space-x-4">
               <a href="https://github.com/Ashi12218604" target="_blank" rel="noopener noreferrer">
@@ -51,41 +51,41 @@ const Navbar = () => {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden pt-4 pb-3 space-y-3">
-            <Link 
-              to="/#about" 
+            <a 
+              href="#about" 
               className="block py-2 hover:text-primary transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               About
-            </Link>
-            <Link 
-              to="/#skills" 
+            </a>
+            <a 
+              href="#skills" 
               className="block py-2 hover:text-primary transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Skills
-            </Link>
-            <Link 
-              to="/#projects" 
+            </a>
+            <a 
+              href="#projects" 
               className="block py-2 hover:text-primary transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Projects
-            </Link>
-            <Link 
-              to="/#education" 
+            </a>
+            <a 
+              href="#education" 
               className="block py-2 hover:text-primary transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Education
-            </Link>
-            <Link 
-              to="/#contact" 
+            </a>
+            <a 
+              href="#contact" 
               className="block py-2 hover:text-primary transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Contact
-            </Link>
+            </a>
             <div className="flex items-center space-x-4 pt-2">
               <a href="https://github.com/Ashi12218604" target="_blank" rel="noopener noreferrer">
                 <Github className="w-5 h-5 hover:text-primary transition-colors" />
