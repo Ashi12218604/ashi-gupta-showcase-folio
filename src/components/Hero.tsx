@@ -12,22 +12,29 @@ const Hero = () => {
               Ashi Gupta
             </h1>
             <p className="text-xl md:text-2xl font-medium mb-4 text-gray-700 dark:text-gray-300">
-              Computer Science Engineer & Data Enthusiast
+              Computer Science Engineer & ML Engineer
             </p>
             <p className="text-gray-600 dark:text-gray-400 mb-8 text-lg">
-              A dedicated computer science professional with expertise in data visualization, 
-              regression analysis, and route optimization. Skilled in Python, Java, SQL, and various 
-              data analysis tools like Tableau and NLTK.
+              I am a data scientist and developer specializing in data analysis, visualization, and machine learning with strong programming skills in Python, Java, and SQL.
+
+My expertise includes building interactive dashboards, implementing machine learning algorithms, and developing user-friendly applications that deliver significant business value through improved efficiency and data-driven decision-making.
+
+I am passionate about finding innovative solutions to complex problems and have a proven track record of reducing costs, improving efficiency, and enhancing user experiences through data analysis and application development.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button asChild className="bg-primary hover:bg-primary/90 text-white">
                 <a href="#contact">Contact Me</a>
               </Button>
-              <Button variant="outline" asChild>
-                <a href="#projects" className="flex items-center gap-2">
-                  View Projects <ArrowDown className="h-4 w-4" />
-                </a>
-              </Button>
+<Button variant="outline" asChild>
+  <a
+    href="/lovable-uploads/8791379845_ashi_.pdf"
+    download="Ashi_Gupta_Resume.pdf"
+    className="flex items-center gap-2"
+  >
+    Download CV <ArrowDown className="h-4 w-4" />
+  </a>
+</Button>
+
             </div>
           </div>
           <div className="flex-1 flex justify-center">
