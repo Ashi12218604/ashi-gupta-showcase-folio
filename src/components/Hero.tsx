@@ -59,7 +59,7 @@ const Hero = () => {
             </motion.h1>
 
             <p className="text-xl md:text-2xl font-medium mb-4 text-gray-800 dark:text-gray-300">
-              Computer Science Engineer & ML Engineer
+              Computer Science & ML Engineer
             </p>
 
             <motion.div
@@ -85,7 +85,7 @@ const Hero = () => {
               <Button variant="outline" asChild className="hover:bg-muted transition">
                 <a
                   href="/lovable-uploads/8791379845_ashi_.pdf"
-                  download="Ashi_Gupta_Resume.pdf"
+                  download="8791379845_ashi.pdf"
                   className="flex items-center gap-2"
                 >
                   Download CV <ArrowDown className="h-4 w-4" />
