@@ -11,7 +11,7 @@ const Hero = () => {
               Ashi Gupta
             </h1>
             <p className="text-xl md:text-2xl font-medium mb-4 text-gray-700 dark:text-gray-300">
-              Computer Science Engineer & ML Engineer
+              Computer Science & ML Engineer
             </p>
             
             <div className="text-gray-600 dark:text-gray-400 mb-8 text-lg space-y-4">

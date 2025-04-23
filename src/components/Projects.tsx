@@ -10,10 +10,10 @@ const Projects = () => {
     {
       id: 1,
       title: "Polynomial Evaluator",
-      description: "Developed a regression-based polynomial term representation model, reducing dimensionality while maintaining high accuracy. Applied feature selection techniques to represent polynomial terms and improved code reliability by 40% through TDD methodology and code duplication reduction.",
+      description: "Designed and implemented a Polynomial Evaluator in Java using Object-Oriented Programming (OOP) principles and LinkedList data structures. The project efficiently represents and evaluates polynomial expressions by modeling each term as a node in a linked list. Improved modularity and code reliability by adhering to Test-Driven Development (TDD) practices, reducing code duplication and enhancing maintainability by 40%. The solution supports various polynomial operations, including addition, multiplication, and evaluation at given values, ensuring accurate computation and dynamic term management.",
       image: "/lovable-uploads/a0e8c334-0e6f-419f-bba3-b377477e0dc9.png",
-      techs: ["Python", "NumPy", "Scikit-learn", "Matplotlib", "Pandas", "OOP", "TDD"],
-      github: "https://github.com/Ashi12218604/Polynomial-Evaluator-using-Linkedlist",
+      techs: ["Java", "OOP", "LinkedList", "TDD"],
+      github: "https://github.com/Ashi12218604/Polynomial-Evaluator-using-Linkedlist"
     },
     {
       id: 2,
