@@ -31,42 +31,42 @@ const Education = () => {
     {
       name: "Programming Pathshala - Renaissance",
       issuer: "Programming Pathshala",
-      period: "Nov '22 - Jan '23",
+      period: "Jun'23 - Jul'24",
       description: "Learned advanced data structures and algorithms, enhancing troubleshooting skills",
       link: "https://certificates.programmingpathshala.com/v1/doc?id=f23d75d9f375fda86b5cd25218da51d48828fe5d018d18ecf24c6c9712d823a1"
     },
     {
       name: "Tableau Mastery",
       issuer: "Job Aaj Learnings",
-      period: "Jun '22 - Jul '23",
+      period: "Jun '23 - Jul '24",
       description: "Advanced data visualization skills using Tableau, creating interactive and insightful dashboards for data analysis",
       link: "https://certificates.programmingpathshala.com/v1/doc?id=f23d75d9f375fda86b5cd25218da51d48828fe5d018d18ecf24c6c9712d823a1"
     },
     {
       name: "Natural Language Processing - Infosys Springboard",
       issuer: "Infosys",
-      period: "Feb '22 - Mar '23",
+      period: "Feb '24 - Mar '25",
       description: "NLP fundamentals and applications",
       link: "https://certificates.programmingpathshala.com/v1/doc?id=f23d75d9f375fda86b5cd25218da51d48828fe5d018d18ecf24c6c9712d823a1"
     },
     {
       name: "IBM SQL & DBMS - Coursera",
       issuer: "IBM via Coursera",
-      period: "Jan '22 - Feb '23",
+      period: "Jan '25 - Feb '25",
       description: "Database management and SQL fundamentals",
       link: "https://www.coursera.org/account/accomplishments/certificate/NIOODDFLNY6R"
     },
     {
       name: "Machine Learning - Coursera",
       issuer: "Coursera (Andrew Ng)",
-      period: "Jan '22 - Feb '23",
+      period: "Jan '25 - Feb '25",
       description: "Core concepts in machine learning, regression, classification, clustering, and more",
       link: "https://www.coursera.org/account/accomplishments/certificate/MA1QKY6HSBP4"
     },
     {
       name: "MongoDB Developer",
       issuer: "MongoDB University",
-      period: "Jan '22 - Feb '23",
+      period: "Jan '24 - Feb '24",
       description: "Foundational skills in MongoDB, document databases, CRUD operations, and schema design",
       link: "https://learn.mongodb.com/c/hUUsZcLxQdO1uu6yPIa8UQ"
     }
