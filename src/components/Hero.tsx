@@ -35,7 +35,7 @@ const Hero = () => {
       {/* Decorative Background */}
       <div className="absolute inset-0 z-0">
         <img
-          src="profile.jpg"
+          src="profile1.jpg"
           alt="Decorative background"
           className="object-cover w-full h-full opacity-10"
         />
@@ -104,7 +104,7 @@ const Hero = () => {
           >
             <div className="relative h-64 w-64 md:h-80 md:w-80 rounded-full overflow-hidden border-4 border-purple-400 shadow-xl hover:shadow-purple-300 transition-shadow duration-300">
               <img
-                src="profile.jpg"
+                src="profile1.jpg"
                 alt="Ashi Gupta"
                 className="object-cover w-full h-full hover:scale-105 transition-transform duration-300"
               />
