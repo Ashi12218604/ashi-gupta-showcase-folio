@@ -190,4 +190,14 @@ const Contact = () => {
               </CardHeader>
               <CardContent>
                 <p>Thanks for contacting.</p>
-                <p className="mt-2">I'll respond to your message
+                <p className="mt-2">I'll respond to your message </p>
+                              </CardContent>
+            </Card>
+          </motion.div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Contact;
