@@ -35,7 +35,7 @@ const Hero = () => {
       {/* Decorative Background */}
       <div className="absolute inset-0 z-0">
         <img
-          src="profile1.jpg"
+          src="bg.avif"
           alt="Decorative background"
           className="object-cover w-full h-full opacity-10"
         />
