@@ -9,7 +9,7 @@ const Education = () => {
       degree: "Bachelor of Technology in Computer Science and Engineering",
       location: "Punjab, India",
       period: "2022 - 2026",
-      grade: "CGPA: 7.96",
+      grade: "CGPA: 8.10",
     },
     {
       institution: "Summer Valley School",
